@@ -1,0 +1,154 @@
+body{
+    margin: 0;
+    text-align: center;
+    font-family: 'Sacramento', cursive;
+}
+hr{
+    /* border-style: dotted; */
+    height: 0;
+    width: 3rem;
+    border-top: 0.375rem dotted #b4c2c2;
+    margin: 80px auto;
+
+}
+
+h1 {
+    margin: 3.125rem auto 0 auto;   /* in margin size is px, so easy to detect, but can be use rem also*/
+    /* rem is the rooth em, so its size its static*/
+    font-size: 5.625rem;  /*16px=100%=1em ,.. 90px/16px=562.5*/
+    color: #66bfbf;
+    line-height: 2;
+    font-family: 'Sacramento', cursive;   
+    cursor: pointer;
+}
+h1:hover{
+    color: #479b9b;
+    
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.8rem;
+    margin: 0 auto 0 auto;
+    color: #66bfbf;
+    font-weight: normal;
+
+}
+h3{
+    color: #11999e;
+    font-family: 'Montserrat', sans-serif;
+
+}
+#mnt{
+    margin: 3.75rem;
+    width: 18.75rem;
+}
+
+.top-container {
+    position:relative;
+    background-color: #e3f1f1;
+    /* height: 200px;
+    width: 200px; */
+    padding-top: 5rem;
+}
+.profile img{
+    border-radius: 6.25rem;
+    cursor: pointer;
+}
+
+#midd{
+    width: 18.75rem;
+    margin: 1.25rem auto 0px;
+}
+
+.middle-container {
+
+}
+
+.bottom-container {
+    background-color: #7aadaf;
+    margin: 5rem 0;
+    padding: 1.875rem;
+    font-family: 'Montserrat', sans-serif;
+ 
+}
+.footer-link{
+    padding: 0px 1.25rem;
+    color: #11999e;
+}
+#par{
+    color: #eaf6f6;
+}
+.span{
+    text-decoration: underline;
+}
+.bottom-cloud{
+    position: absolute;
+    top: 35.625rem;
+    left: 17.8125rem;
+    width: 6.25rem;
+}
+.top-cloud{
+    position: absolute;
+    right: 46.6667rem;;
+    top: 4.375rem;
+    width: 6.25rem;
+}
+p{
+    font-family: 'Montserrat', sans-serif;
+}
+.bottom-container a{
+    color: #20696e;
+    text-decoration: none;
+}
+.bottom-container a:hover{
+    color: #f1f7f7;
+
+}
+.skill-row{
+    width:50%;
+    margin: 6.25rem auto 6.25rem;
+    text-align: left;
+    line-height: 2;
+}
+.frnt{
+    width: 25%;
+    height: 25%;
+    float: left;
+    margin-right: 1.875rem;
+}
+.excel{
+    width: 25%;
+    height: 25%;
+    float: right;
+    margin-left: 1.875rem;
+}
+#frnt-disc{
+     clear: left;
+}
+#excel{
+    clear: right;
+}
+.profile p{
+    color: #40514e;
+}
+.btn{
+    background:#3498db;
+    background-image: -moz-linear-gradient(top, #3498db,#2980b9);
+    background-image: linear-gradient(to bottom,#3498db,#2980b9);
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#eaf6f6;
+    font: size 1.25rem;;
+    text-shadow: 0.25rem 0.0625rem 0.1875rem #666666;
+    padding: 0.625rem 1.25rem;
+    border-radius: 0.625rem;
+}
+.btn:hover{
+    background: #3cb0fd;
+    background-image: -moz-linear-gradient(top,#3cb0fd,#3498db);
+    background-image: linear-gradient(to bottom,#3cb0fd,#3498db);
+
+}
+#bellow-margin{
+    margin-bottom: 5rem;
+}
